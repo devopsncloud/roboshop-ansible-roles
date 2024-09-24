@@ -1,7 +1,7 @@
 #tasks:
   - name: copy mongo repo into /etc/yum.repos.d/mongo.repo
     copy:
-      src: /home/centos/rs_ansible/mongo.repo
+      src: mongo.repo
       dest: /etc/yum.repos.d/mongo.repo
   
   - name: Install mongodb
